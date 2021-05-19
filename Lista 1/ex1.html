@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex1</title>
+
+    <script type="text/javascript">
+    primeiroNome = prompt("Qual o seu primeiro nome?")
+    sobreNome = prompt("Qual o seu sobrenome?")
+
+    quantidade = prompt("Quantas vezes quer repetir seu nome e sobrenome? (Obs: > 0)")
+    cor = prompt("Qual cor você quer que seu sobrenome tenha? (Obs: em inglês a cor obrigatóriamente!))")
+
+    for(i=1; i<=quantidade; i++)
+        document.write(`<p> ${i} - ${primeiroNome} <span style="color:${cor};">${sobreNome}</p>`)
+    </script>
+</head>
+<body>
+</body>
+</html>
